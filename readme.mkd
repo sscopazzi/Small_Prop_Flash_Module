@@ -20,5 +20,11 @@ USB Type C Jack
 | Battery                   | 1        | $6         | 
 | **Total**                 |          | **$27.00** |
 
+## 3D Models of Parts
+To assist in building a housing I made 3d models of each component (I've supplied .stl and SolidWorks files). I've gone through more than ten iterations of how to situate them in a small enough package to stay hidden on a CO2 pistol. If your prop weapon is bigger this will be easier. 
+
+## Wiring
+See wire_diagram.jpg made using KiCad. I am exploring making a custom PCB. I may have extras that I could send you, so if that would be of interest please reach out :)
+
 ## Questions
-As always, feel free to reach out with any questions! Through GitHub or [my website](https://www.sophiescopazzi.com/). 
+I'm more than happy to talk about any of my projects! Through GitHub or [my website](https://www.sophiescopazzi.com/). 
