@@ -10,27 +10,27 @@
 //https://create.arduino.cc/projecthub/wemissdominguez/led-flash-91fade
 //https://www.arduino.cc/reference/en/language/structure/control-structure/else/
 
-int conMic = A2;                 // Connect the MEMS AUD output to the Arduino A0 pin
-int ledPin = 11;
+int conMic = A2;  // MEMS AUD output to Arduino analog A2 pin
+int ledPin = 11;  // pin LED+ is attached to
 
-int micOut;                      // Variable to hold analog values from mic
+int micOut;       // hold analog values from mic
 
 void setup() {
   Serial.begin(115200);
-  pinMode(ledPin,OUTPUT);        //set correct digital pinmode to output 
+  pinMode(ledPin,OUTPUT);         //set correct digital pinmode to output 
 
 }
 
 void loop() {
-  micOut = analogRead(conMic);    // read the input on analog pin 0:
+  micOut = analogRead(conMic);    // read the input on analog pin
   
-    if (conMic > 100) {           //if statement setting flash threshhold 
-      digitalWrite(ledPin,HIGH);  
+    if (conMic > 100) {           // if statement setting flash threshhold, play with what works best for you
+      digitalWrite(ledPin,HIGH);
     }
     else if (conMic < 100) {
       digitalWrite(ledPin,LOW);
     }
 
-  Serial.println(micOut);         //print value to serial monitor 
-  Serial.println(conMic);
+  Serial.println(micOut);   //print value to serial monitor
+  Serial.println(conMic);   
 }
