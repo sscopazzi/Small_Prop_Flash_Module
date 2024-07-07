@@ -1,7 +1,7 @@
 # Small Prop Flash Module
 Designed to emulate real muzzle flashes from a prop gun. It uses a MEMS microphone to flash an LED upon hearing a sharp noise (in my case, the sound of a CO2 pistol racking). It is also very cheap, costing less than $50. It does, however, require making a housing which will effect costs. 
 
-Because the entire system must be small enough to hide somewhere on the prop weapon that is seen in the final video or theater production everything is being designed to fit into a small enough package to hide somewhere about the weapon. 
+Because the entire system must be small enough to hide somewhere on the prop weapon that is seen in the final film or theater production everything is being designed to fit into a small enough package to hide somewhere about the weapon. 
 
 ## Parts Used
 1. [DFRobot Beetle Board](https://www.dfrobot.com/product-1075.html) Compatible with Arduino Leonardo - ATmega32U4
